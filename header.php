@@ -15,7 +15,7 @@
             menu
           </button>
           <ul class="nav__wrapper">
-            <li class="nav__item"><a href="https://www.google.com">Home</a></li>
+            <li class="nav__item"><a href="./home.php">Home</a></li>
             <li class="nav__item"><a href="#">ログイン</a></li>
             <li class="nav__item"><a href="#">登録</a></li>
           </ul>

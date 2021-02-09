@@ -15,9 +15,10 @@
             menu
           </button>
           <ul class="nav__wrapper">
+            <li class="nav__item"><a>ようこそゲストさん</a></li>
             <li class="nav__item"><a href="./home.php">Home</a></li>
-            <li class="nav__item"><a href="#">ログイン</a></li>
-            <li class="nav__item"><a href="#">登録</a></li>
+            <li class="nav__item"><a href="./login.php">ログイン</a></li>
+            <li class="nav__item"><a href="./registrate.php">登録</a></li>
           </ul>
         </nav>
       </div>

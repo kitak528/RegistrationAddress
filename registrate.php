@@ -1,8 +1,5 @@
 <?php
-ini_set("display_errors", 1);
-error_reporting(E_ALL);
-
-require("./dbconnect.php");
+require("./general.php");
 session_start();
 
 if (!empty($_POST)) {

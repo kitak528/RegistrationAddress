@@ -15,6 +15,7 @@ if(isset($_POST["login"])) {
             $stmt->execute();
         } catch (PDOException $e) {
             echo 'Error: ' . $e->getMessage();
+            error_log("[". date('Y-m-d H:i:s') . "] ".$e->getMessage(), 3, "./errorLog.log");
             die();
         }
 
